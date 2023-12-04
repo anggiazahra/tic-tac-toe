@@ -1,15 +1,59 @@
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+  background-color: #204D64;
+  margin: 0 40%;
+  font-size: 30px; 
+}
+
 .board {
     display: flex;
     flex-wrap: wrap;
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #57849B;
 }
 
 .square {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   font-weight: bold;
-  background-color: white;
-  border: 1px solid black;
+  font-size: 45px; 
+  background-color: #2E6B89;
+  border: 2px solid #57849B;
+  color: #C5DB57;
   cursor: pointer;
+}
+
+.square-x {
+  color: #C5DB57;
+}
+
+.square-o {
+  color: #EB7D31;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.card {
+  padding: 40px;
+  margin: 40px 0;
+  background-color: #2E6B89;
+  color: white;
+  width: fit-content;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.btn-reset {
+  font-size: 30px;
+  padding: 10px 20px;
+  margin: 30px 0 0 0;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  background-color: #57849b;
+  border-color: #57849b;
 }
